@@ -28,7 +28,7 @@ let reservas = [];
 const eleccionnombre = document.getElementById("nombre");
 const eleccionapellidos = document.getElementById("apellidos");
 const eleccionmail = document.getElementById("gmail");
-const eleccionnumero = document.getElementById("movil");
+const eleccionnumero = document.getElementById("numero");
 const botoncliente = document.getElementById("botondelcliente");
 const tabladeclientes = document.getElementById("tablacliente");
 // Viajes
