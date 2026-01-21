@@ -46,16 +46,16 @@ const selectordelcliente = document.getElementById("selectorcliente");
 const selectordelviaje = document.getElementById("selectorviaje");
 const botondelasreservas = document.getElementById("botondereservas");
 const tabladereservas = document.getElementById("tablareservas");
-function guardarTodo() {
-  localStorage.setItem("clientes", JSON.stringify(clientes));
-  localStorage.setItem("viajes", JSON.stringify(viajes));
-  localStorage.setItem("reservas", JSON.stringify(reservas));
-}
-function cargarTodo() {
-  clientes = JSON.parse(localStorage.getItem("clientes")) ;
-  viajes = JSON.parse(localStorage.getItem("viajes")) ;
-  reservas = JSON.parse(localStorage.getItem("reservas")) ;
-}
+// function guardarTodo() {
+//   localStorage.setItem("clientes", JSON.stringify(clientes));
+//   localStorage.setItem("viajes", JSON.stringify(viajes));
+//   localStorage.setItem("reservas", JSON.stringify(reservas));
+// }
+// function cargarTodo() {
+//   clientes = JSON.parse(localStorage.getItem("clientes")) ;
+//   viajes = JSON.parse(localStorage.getItem("viajes")) ;
+//   reservas = JSON.parse(localStorage.getItem("reservas")) ;
+// }
 function pintarClientes() {
   tabladeclientes.innerHTML = "";
 
